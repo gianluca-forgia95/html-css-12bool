@@ -6,15 +6,7 @@
 }
  /* /Reset */
 
-  /* Regole Debug */
-.container .debug {
-  border: 1px solid green;
-  min-height: 200px;
-}
-[class*='col-'] .debug {
-  height: 200px;
-}
- /* /Regole Debug */
+
  /* Framework */
  .container {
    max-width: 1170px;
@@ -27,12 +19,7 @@
  }
  /* /Framework */
  /* Colonne */
-  [class*='col-'] {
-   float: left;
-   background-color: #E9967A;
-   border: 1px solid black;
-   height: 200px;
- }
+
  .col-1 {
    width: calc((100% / 12) * 1) ;
  }

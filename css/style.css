@@ -1,6 +1,26 @@
-.nested {
+
+.container {
+  text-align: center;
+  line-height: 200px;
+}
+
+[class*='col-'] {
+ float: left;
+ background-color: #E9967A;
+ border: 1px solid black;
+ height: 200px;
+}
+ [class*='nested'] {
   background-color: #DC143C;
   border: none;
   transform: scale( 0.98 , 0.96);
-
 }
+/* Regole Debug */
+.container .debug {
+border: 1px solid green;
+min-height: 200px;
+}
+[class*='col-'] .debug {
+height: 200px;
+}
+/* /Regole Debug */
