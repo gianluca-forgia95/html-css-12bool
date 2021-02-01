@@ -27,7 +27,7 @@
  }
  /* /Framework */
  /* Colonne */
- [class*='col-'] {
+  [class*='col-'] {
    float: left;
    background-color: #E9967A;
    border: 1px solid black;
